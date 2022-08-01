@@ -1,0 +1,44 @@
+Notes
+---
+  Browser = HTML Renderer + CSS Parser + JS Engine 
+
+  Browser Family: 
+  ---
+    Chrome, Firefox, Safari, Edge, IE, Opera, Brave 
+
+ 
+  Safari by Apple
+    Webkit Core (Open Sourced) 
+    CSS prefix -webkit 
+
+  Firefox by Mozilla 
+    Mozilla Core (Open Sourced) 
+    CSS prefix -moz 
+
+  Chrome By Google
+    Chromium Core (Open Sourced)  = Webkit Core + Mozilla Core + Google's own codebase 
+    CSS prefix -webkit 
+
+  Opera by Opera 
+    Chromium Core (Open Source)
+    CSS prefix -webkit 
+
+  Edge by Microsoft
+    Chromium Core (Open Source)
+    CSS prefix -webkit 
+
+  Brave 
+    Chromium Core (Open Source)
+    CSS prefix -webkit 
+
+
+
+===
+Layout
+---
+  Types of Layouts
+  ---
+    1. Fixed Layout 
+    2. Fluid Layout 
+
+  
