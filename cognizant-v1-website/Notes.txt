@@ -41,4 +41,24 @@ Layout
     1. Fixed Layout 
     2. Fluid Layout 
 
+HTML - Structural Layer
+CSS - Presentation Layer
+JS - Interaction Layer 
+
+
+Types of Elements
+--
+  1. Block Level Elements
+      div, p, h1-h6, li, ul, 
+
+  2. Inline Elements 
+      a, img, span, button
+
+Naming Conventions for html element id's and css classes 
+--
+  camelCase or kebab-case 
+
   
+
+
+
