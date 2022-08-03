@@ -49,16 +49,31 @@ JS - Interaction Layer
 Types of Elements
 --
   1. Block Level Elements
-      div, p, h1-h6, li, ul, 
+      div, p, h1-h6, li, ul, header, nav, footer, main, section
 
   2. Inline Elements 
       a, img, span, button
 
-Naming Conventions for html element id's and css classes 
+
+Naming conventions
 --
-  camelCase or kebab-case 
 
-  
+  File Names 
+  --
+    All file names should be in lowercase.
+    Do not underscore in file names 
+    some valid file names: contact-us.html, main.css, main.js 
 
+  Id's and css classes 
+  ---
+    camelCase or kebab-case 
+    some valid names: slideContainer, slide-container 
+    Invalid names: SlideContainer, slide_container, slide container
+
+  --
+
+
+
+---
 
 
