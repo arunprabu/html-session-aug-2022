@@ -66,7 +66,7 @@ Naming conventions
 
   Id's and css classes 
   ---
-    camelCase or kebab-case 
+    camelCase (Recommend) or kebab-case 
     some valid names: slideContainer, slide-container 
     Invalid names: SlideContainer, slide_container, slide container
 
@@ -76,4 +76,17 @@ Naming conventions
 
 ---
 
+Structural Layer - HTML [DONE] 
 
+Presentation Layer - CSS 
+  CSS 
+  Responsive CSS 
+
+Interaction Layer - JS 
+  Basic JS 
+  HTML 5 JS API's 
+  Custom Elements 
+
+Web Conformance Guideline
+
+---
