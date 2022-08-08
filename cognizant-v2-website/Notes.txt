@@ -1,0 +1,92 @@
+Notes
+---
+  Browser = HTML Renderer + CSS Parser + JS Engine 
+
+  Browser Family: 
+  ---
+    Chrome, Firefox, Safari, Edge, IE, Opera, Brave 
+
+ 
+  Safari by Apple
+    Webkit Core (Open Sourced) 
+    CSS prefix -webkit 
+
+  Firefox by Mozilla 
+    Mozilla Core (Open Sourced) 
+    CSS prefix -moz 
+
+  Chrome By Google
+    Chromium Core (Open Sourced)  = Webkit Core + Mozilla Core + Google's own codebase 
+    CSS prefix -webkit 
+
+  Opera by Opera 
+    Chromium Core (Open Source)
+    CSS prefix -webkit 
+
+  Edge by Microsoft
+    Chromium Core (Open Source)
+    CSS prefix -webkit 
+
+  Brave 
+    Chromium Core (Open Source)
+    CSS prefix -webkit 
+
+
+
+===
+Layout
+---
+  Types of Layouts
+  ---
+    1. Fixed Layout 
+    2. Fluid Layout 
+
+HTML - Structural Layer
+CSS - Presentation Layer
+JS - Interaction Layer 
+
+
+Types of Elements
+--
+  1. Block Level Elements
+      div, p, h1-h6, li, ul, header, nav, footer, main, section
+
+  2. Inline Elements 
+      a, img, span, button
+
+
+Naming conventions
+--
+
+  File Names 
+  --
+    All file names should be in lowercase.
+    Do not underscore in file names 
+    some valid file names: contact-us.html, main.css, main.js 
+
+  Id's and css classes 
+  ---
+    camelCase (Recommend) or kebab-case 
+    some valid names: slideContainer, slide-container 
+    Invalid names: SlideContainer, slide_container, slide container
+
+  --
+
+
+
+---
+
+Structural Layer - HTML [DONE] 
+
+Presentation Layer - CSS 
+  CSS 
+  Responsive CSS 
+
+Interaction Layer - JS 
+  Basic JS 
+  HTML 5 JS API's 
+  Custom Elements 
+
+Web Conformance Guideline
+
+---
