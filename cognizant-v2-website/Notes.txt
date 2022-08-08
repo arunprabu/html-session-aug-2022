@@ -90,3 +90,36 @@ Interaction Layer - JS
 Web Conformance Guideline
 
 ---
+
+CSS 
+---
+  Cascading Style Sheet (CSS)
+
+Types of Styles
+---
+  1. Inline Styles 
+      * writing styles directly in elements 
+      
+
+  2. Internal Styles 
+  3. External Styles
+
+---
+
+CSS Syntax
+----
+  selector {
+    /* style definition */
+    property: value;
+    property: value;
+  }
+
+Selectors
+--
+  1. Element Selector 
+  2. ID Selector 
+  3. Class Selector 
+  4. Attribute Selector [TODO]
+  5. Pseudo Selector [TODO]
+
+--
