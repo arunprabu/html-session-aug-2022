@@ -1,0 +1,39 @@
+/* External Style */
+
+/* app wide css */
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Element Selector */
+header{
+  /* style defn */
+}
+
+/* ID Selector */
+#topNav{
+  background-color: #dededf;
+  padding: 2px 10px;
+}
+
+#topNav ul{
+  text-align: right;
+}
+
+#topNav ul li {
+  display: inline; 
+  padding: 0 15px;
+}
+
+#topNav ul li a{
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgb(0, 44, 91);
+  text-decoration: none;
+}
+
+/* TODO: learning about mouse over styles -- pseudo selector*/ 
+/* TODO: style the footer section also */
+
+

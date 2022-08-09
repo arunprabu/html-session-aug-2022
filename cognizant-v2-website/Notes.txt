@@ -100,9 +100,26 @@ Types of Styles
   1. Inline Styles 
       * writing styles directly in elements 
       
+      Disadv
+      ---
+        * styles can't be re-used in other elements 
+        * Styles can't be re-used in other pages 
+        * mixing both html and css styles together is a bad practice
 
   2. Internal Styles 
+      * writing the styles inside the html page itself
+      * styles can be re-used in other elements within the same html file 
+      
+      Disadv
+      --
+      * Styles can't be re-used in other pages
+      * mixing both html and css styles together is a bad practice
+
   3. External Styles
+      * Writing the styles in separate css file
+      * styles can be re-used in other elements 
+      * Styles can be re-used in other pages
+      * HTML and css files are logically separately. 
 
 ---
 
@@ -116,10 +133,26 @@ CSS Syntax
 
 Selectors
 --
-  1. Element Selector 
-  2. ID Selector 
+  1. Element Selector    (header, nav, )
+  2. ID Selector (#)
   3. Class Selector 
   4. Attribute Selector [TODO]
   5. Pseudo Selector [TODO]
 
 --
+
+
+CSS 
+---
+  Styling All 4 Pages 
+
+CSS3 
+---
+
+Responsive Web Design (RWD) 
+---
+
+WCAG 
+--
+
+JS 
