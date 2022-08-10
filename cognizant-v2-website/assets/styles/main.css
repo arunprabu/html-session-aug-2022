@@ -1,7 +1,17 @@
 /* External Style */
 
 /* app wide css */
-*{
+/* *{
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* class selector -- for debugging purpose */
+.red{
+  border: solid 1px red;
+}
+
+/* custom style */
+body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,11 +23,14 @@ header{
 /* ID Selector */
 #topNav{
   background-color: #dededf;
-  padding: 2px 10px;
+  padding: 0;
 }
 
 #topNav ul{
+  width: 1200px;
   text-align: right;
+  margin: 0 auto;
+  padding: 12px 0;
 }
 
 #topNav ul li {
@@ -36,4 +49,19 @@ header{
 /* TODO: learning about mouse over styles -- pseudo selector*/ 
 /* TODO: style the footer section also */
 
+/* class selector */
+.logoWrapper{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#mainNav ul li{
+  display: inline;
+}
+
+#mainNav ul li a{
+  padding: 16px 20px;
+  font-size: 20px;
+  line-height: 20px;
+}
 
