@@ -85,7 +85,10 @@ main{
 
 .heroWrapper{
   width: 100%;
-  background-color: #000048;
+  /* background-color: #000048; */
+  background: rgb(255,25,2);
+  /* Css gradient -- Refer:  https://cssgradient.io/ */
+  background: linear-gradient(214deg, rgba(255,25,2,1) 0%, rgba(226,201,18,1) 33%, rgba(88,167,193,1) 66%, rgba(155,0,170,1) 100%);
 }
 
 .bannerArea{
@@ -152,4 +155,48 @@ main{
 
 .footer{
   clear:both;
+}
+
+.introWrapper{
+  background: aliceblue url('../images/about-bg.jpeg') no-repeat; 
+  background-size: cover; 
+  height: 600px;
+  text-align: center;
+}
+
+.introWrapper h1{
+  font-size: 42px;
+  color: #000048;
+  padding-top:10%;
+  text-shadow: 2px 2px 2px #ee0000;
+}
+
+.videoWrapper{
+  margin: 20px auto;
+  text-align: center;
+}
+
+.contactForm{
+  width: 50%;
+  margin:0 auto;
+}
+
+.contactForm div{
+  padding: 20px;
+}
+
+.contactForm label{
+  width: 135px;
+  display: inline-block;
+}
+
+.contactForm input, .contactForm textarea{
+  width: 300px;
+  padding: 8px 15px;
+  display: inline-block;
+}
+
+/* attribute selector */
+.contactForm button[type='reset']{
+  margin-left: 160px;
 }

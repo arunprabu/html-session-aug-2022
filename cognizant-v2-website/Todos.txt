@@ -1,4 +1,8 @@
 1. audio tag - try loading an audio file here -- Refer about.html 
 2. font awesome icons for social media links in contact page
 3. Experiment with table tag
+4. services page using flexboxes
+6. Style footer section of all pages
+
+
 

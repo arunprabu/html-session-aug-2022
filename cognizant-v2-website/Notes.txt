@@ -141,18 +141,12 @@ Selectors
 
 --
 
-
-CSS 
----
-  Styling All 4 Pages 
-
-CSS3 
----
-
-Responsive Web Design (RWD) 
----
-
 WCAG 
 --
 
-JS 
+CSS Precedence
+--
+  User Agent Style => External Style => Internal Style => Inline Style 
+
+RWD 
+
