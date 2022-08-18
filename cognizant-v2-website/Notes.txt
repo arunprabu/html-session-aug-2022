@@ -141,12 +141,27 @@ Selectors
 
 --
 
-WCAG 
---
+
 
 CSS Precedence
 --
   User Agent Style => External Style => Internal Style => Inline Style 
 
+WCAG 
+--
+Accessibility 
+---
+  4 Principles 
+  --
+    perceivable, operable, understandable, and robust.
+
+  Read more: https://www.w3.org/TR/WCAG21/#perceivable
+  
+
+
 RWD 
+--
+
+
+
 

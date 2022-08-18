@@ -46,6 +46,9 @@ header{
   text-decoration: none;
 }
 
+.hamburgerMenu{
+  display: none;
+}
 /* TODO: learning about mouse over styles -- pseudo selector*/ 
 /* TODO: style the footer section also */
 
@@ -199,4 +202,56 @@ main{
 /* attribute selector */
 .contactForm button[type='reset']{
   margin-left: 160px;
+}
+
+
+/* Responsive Web Design */
+/* CSS3 Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body{
+    background-color: red;
+  }
+
+  #topNav ul li{
+    display: block;
+    text-align: left;
+  }
+
+  #mainNav{
+    display: none;
+  }
+
+  .hamburgerMenu{
+    display: inline-block;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body{
+    background-color: yellow;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body{
+    background-color: lightcoral;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body{
+    background-color: aqua;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body{
+    background-color: darkorchid;
+  }
 }
