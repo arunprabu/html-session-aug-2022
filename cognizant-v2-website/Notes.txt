@@ -156,11 +156,18 @@ Accessibility
     perceivable, operable, understandable, and robust.
 
   Read more: https://www.w3.org/TR/WCAG21/#perceivable
-  
+
 
 
 RWD 
 --
+  * making the website accessible to wide array of device form factors such as ...
+    small mobile phones, larger screen phones, tablets, laptops, desktops, tv's 
+
+  CSS3 Media Queries 
+  --
+    
+  
 
 
 
