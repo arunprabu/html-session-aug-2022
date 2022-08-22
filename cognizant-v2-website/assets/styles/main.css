@@ -1,29 +1,36 @@
 /* External Style */
 
+
+
+/* Embedding Font */
+@font-face {
+  font-family: "IBM Plex Sans"; /* exposing the font to be used throughout the project */
+  src: url("../fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "IBM Plex Sans-Light"; /* exposing the font to be used throughout the project */
+  src: url("../fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "IBM Plex Sans-Bold"; /* exposing the font to be used throughout the project */
+  src: url("../fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf") format("truetype");
+}
+
 /* app wide css */
 /* *{
   font-family: Arial, Helvetica, sans-serif;
 } */
 
-/* class selector -- for debugging purpose */
-.red{
-  border: solid 1px red;
-}
-
 /* custom style */
 body{
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Element Selector*/
-header{
-  /* style defn */
+  font-family: 'IBM Plex Sans', Helvetica, sans-serif;
 }
 
 /* ID Selector -[NOT RECOMMENDED]*/
 #topNav{
   background-color: #dededf;
   padding: 0;
+  font-family: 'IBM Plex Sans-Light';
 }
 
 #topNav ul{
@@ -84,6 +91,7 @@ header{
 
 main{
   width: 100%;
+  font-family: 'IBM Plex Sans-Light';
 }
 
 .heroWrapper{
@@ -105,6 +113,8 @@ main{
   color: #fff;
 }
 
+
+
 .primaryBtn{
   color: rgb(65, 65, 65); 
   background-color: #26efe9;
@@ -112,6 +122,15 @@ main{
   border-radius: 22px; 
   padding: 10px 30px;
   border: solid 1px #26efe9;
+}
+
+.defaultBtn{
+  color: #fff; 
+  background-color: #000048;
+  font-size: 20px; 
+  border-radius: 22px; 
+  padding: 10px 30px;
+  border: solid 1px #000048;
 }
 
 .introArea{
@@ -205,6 +224,7 @@ main{
 }
 
 
+
 /* Responsive Web Design */
 /* CSS3 Media Queries */
 
@@ -252,6 +272,6 @@ main{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   body{
-    background-color: darkorchid;
+    background-color: #fff;
   }
 }
