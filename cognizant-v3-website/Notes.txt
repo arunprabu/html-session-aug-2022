@@ -1,0 +1,276 @@
+Notes
+---
+  Browser = HTML Renderer + CSS Parser + JS Engine 
+
+  Browser Family: 
+  ---
+    Chrome, Firefox, Safari, Edge, IE, Opera, Brave 
+
+ 
+  Safari by Apple
+    Webkit Core (Open Sourced) 
+    CSS prefix -webkit 
+
+  Firefox by Mozilla 
+    Mozilla Core (Open Sourced) 
+    CSS prefix -moz 
+
+  Chrome By Google
+    Chromium Core (Open Sourced)  = Webkit Core + Mozilla Core + Google's own codebase 
+    CSS prefix -webkit 
+
+  Opera by Opera 
+    Chromium Core (Open Source)
+    CSS prefix -webkit 
+
+  Edge by Microsoft
+    Chromium Core (Open Source)
+    CSS prefix -webkit 
+
+  Brave 
+    Chromium Core (Open Source)
+    CSS prefix -webkit 
+
+
+
+===
+Layout
+---
+  Types of Layouts
+  ---
+    1. Fixed Layout 
+    2. Fluid Layout 
+
+HTML - Structural Layer
+CSS - Presentation Layer
+JS - Interaction Layer 
+
+
+Types of Elements
+--
+  1. Block Level Elements
+      div, p, h1-h6, li, ul, header, nav, footer, main, section
+
+  2. Inline Elements 
+      a, img, span, button
+
+
+Naming conventions
+--
+
+  File Names 
+  --
+    All file names should be in lowercase.
+    Do not underscore in file names 
+    some valid file names: contact-us.html, main.css, main.js 
+
+  Id's and css classes 
+  ---
+    camelCase (Recommend) or kebab-case 
+    some valid names: slideContainer, slide-container 
+    Invalid names: SlideContainer, slide_container, slide container
+
+  --
+
+
+
+---
+
+Structural Layer - HTML [DONE] 
+
+Presentation Layer - CSS 
+  CSS 
+  Responsive CSS 
+
+Interaction Layer - JS 
+  Basic JS 
+  HTML 5 JS API's 
+  Custom Elements 
+
+Web Conformance Guideline
+
+---
+
+CSS 
+---
+  Cascading Style Sheet (CSS)
+
+Types of Styles
+---
+  1. Inline Styles 
+      * writing styles directly in elements 
+      
+      Disadv
+      ---
+        * styles can't be re-used in other elements 
+        * Styles can't be re-used in other pages 
+        * mixing both html and css styles together is a bad practice
+
+  2. Internal Styles 
+      * writing the styles inside the html page itself
+      * styles can be re-used in other elements within the same html file 
+      
+      Disadv
+      --
+      * Styles can't be re-used in other pages
+      * mixing both html and css styles together is a bad practice
+
+  3. External Styles
+      * Writing the styles in separate css file
+      * styles can be re-used in other elements 
+      * Styles can be re-used in other pages
+      * HTML and css files are logically separately. 
+
+---
+
+CSS Syntax
+----
+  selector {
+    /* style definition */
+    property: value;
+    property: value;
+  }
+
+Selectors
+--
+  1. Element Selector    (header, nav, )
+  2. ID Selector (#)
+  3. Class Selector 
+  4. Attribute Selector [TODO]
+  5. Pseudo Selector [TODO]
+
+--
+
+
+
+CSS Precedence
+--
+  User Agent Style => External Style => Internal Style => Inline Style 
+
+WCAG 
+--
+Accessibility 
+---
+  4 Principles 
+  --
+    perceivable, operable, understandable, and robust.
+
+  Read more: https://www.w3.org/TR/WCAG21/#perceivable
+
+
+
+RWD 
+--
+  * making the website accessible to wide array of device form factors such as ...
+    small mobile phones, larger screen phones, tablets, laptops, desktops, tv's 
+
+  CSS3 Media Queries 
+  --
+    
+  
+SASS
+---
+  SCSS / SASS => (Preprocessor) => CSS 
+
+
+
+====
+JavaScript 
+---
+
+JavaScript
+---
+  * To handle Interactions like click, scroll, mouseover, mousemove, drag, drop, keyup 
+  * 3 Ways to use JS in HTML Project 
+      1. Inline JS (NOT RECOMMENDED)
+          <button type="button" class="primaryBtn" onclick="alert('test');" >Example</button>
+
+      2. Internal JS 
+          Inside the html page 
+            <button type="button" class="primaryBtn" onclick="findOutClickHandler()">Find out how</button>
+
+            <script>
+              function findOutClickHandler(){
+                alert('clicked');
+              }
+            </script>
+
+      3. External JS (RECOMMENDED)
+          in html file, 
+          <button onclick="onClickHandler()">External JS Demo</button>
+
+          in the same html file, 
+          <!-- Let's load the external script -->
+          <script src="./assets/scripts/main.js"></script>
+
+          in main.js 
+            // external JS 
+            function onClickHandler(){
+              alert('clicked');
+            }
+
+
+Variables?
+--
+  var x = 10; 
+
+
+Datatypes in JS 
+--
+  1. Primitive DataTypes (7)
+      string, number, boolean, undefined, null, symbol (ES2015), big int (ES2017)
+
+  2. Non-Primitive DataTypes / Reference Types 
+      Arrays, Objects, RegExp 
+
+Types of Lang (in terms of datatypes )
+--
+      1. Strictly-typed
+          Examples: Java, C# 
+
+          Syntax:
+            int x = 10; // valid 
+            x = 100; // valid 
+            x = true; // error 
+
+      2. Loosely-typed 
+          Example: JS, PHP, Python
+
+          Syntax: 
+
+            // loosely typed 
+            // dynamically typed 
+            var x = 10;
+            x = 'John'; 
+            x = true;
+            x = undefined;
+            x = null;
+
+            x = [];
+            x = {};
+
+            // Anonymous Fn 
+            x = function(){
+              
+            }
+            console.log(x);
+
+
+-------
+
+Functions 
+--  
+  1. Named function
+      function add(a, b){ // arguments
+        return a + b;
+      }
+
+      add(10, 20); // params 
+
+  2. Anonymous Function 
+      var add = function(a, b){ // arguments
+        return a + b;
+      }
+
+      add(10, 20); // params
+

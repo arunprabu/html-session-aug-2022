@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- Will discuss during Responsive Web design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" 
+      content="Anticipate trends. Drive meaningful change. Outthink your competition. That's the power of intuition—and we can engineer it. Learn more."/>	
+    <meta name="keywords" content="IT consulting, Tech Consulting, Software Consulting, Best Consulting Company is USA, Forth">
+    <meta name="author" content="Cognizant Team">
+    <title>Cognizant Website!</title>
+    <!-- Normalize.css -->
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <style>
+      /* Internal Styles */
+      /* element selector */
+      h1{ 
+        /* style defn */
+        color:red;
+        font-size: 40px;  
+      }
+    </style>
+
+  </head>
+  
+  <body>
+    <!-- Let's build the fixed layout for cognizant website-->
+    <header>
+      <nav id="topNav">
+        <ul>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Events</a></li>
+        </ul>
+      </nav>
+
+      <div class="logoWrapper">   
+        <a href="/index.html" class="logoLink">
+          <img src="assets/images/Cognizant-Logo.svg" width="240" alt="Cognizant Logo">
+        </a>
+        <button class="hamburgerMenu">|||</button>
+        <nav id="mainNav">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/services.html">Services</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- there should be only one main tag per page-->
+    <main>
+      <div class="heroWrapper">
+        <div class="bannerArea">
+          <h1>Intuition Engineered--- human insight at superhuman speed</h1>
+          <!-- Inline Styles -->
+          <p style="font-size: 16px;color: #fff;">Anticipate Change. Drive meaningful change. Outhink your competion.</p>
+          <!-- Internal script -- refer at the bottom of this page-->
+          <button type="button" class="primaryBtn" onclick="findOutClickHandler()">Find out how</button>
+        </div>
+      </div>
+
+      <section class="introArea">
+        <h2>Cognizant helps companies modernize technology, reimagine processes and transform experiences so they stay ahead in a fast-changing world.</h2>
+      </section>
+
+      <section class="careerBox">
+        <div class="careerArea">
+          <img src="/assets/images/hp-recruitment-top-banner.png" height="290" width="520"
+          alt="Join Cognizant">
+          <div class="careerMeta">
+            <h3>Advance your career—and the world we live in</h3>
+            <p>Continuously sharpen your technical skills, your problem-solving abilities and your entrepreneurial spirit. Join Cognizant, and help us change lives.</p>
+            <a href="#" class="secondaryBtn">Browse Job Listings</a>
+
+            <button onclick="onClickHandler()">External JS Demo</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <hr>
+      <nav>
+        <ul>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy Notice</a></li>
+          <li><a href="#">Cookie Notice</a></li>
+        </ul>
+      </nav>
+      <p>&copy; 2022 Cognizant, all rights reserved</p>
+    </footer>
+
+    <!-- let's have internal script -->
+    <script>
+      function findOutClickHandler(){
+        alert('clicked');
+      }
+    </script>
+
+    <!-- Let's load the external script -->
+    <script src="./assets/scripts/main.js"></script>
+
+  </body>
+</html>
