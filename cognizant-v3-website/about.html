@@ -41,6 +41,38 @@
       <h1>About Cognizant</h1>
       <h2>Engineering modern business to improve everyday lives</h2>
     </section>
+
+
+
+
+    <section>
+      <h2>Drag and Drop API Demo</h2>
+      <div id="droppableArea" style="border:solid 1px red; height: 100px;"
+      ondragover="dragOverHandler(event)" ondrop="dropHandler(event)">
+
+      </div>
+
+      <img src="./assets/images/Cognizant-Logo.svg" id="draggableImg" 
+      draggable="true" width="200" ondragstart="dragStartHandler(event)">
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     <section class="videoWrapper">
       <video width="800" controls>
@@ -110,6 +142,8 @@
     <p>&copy; 2022 Cognizant, all rights reserved</p>
   </footer>
   
+  <!-- Let's load the external script -->
+  <script src="./assets/scripts/main.js"></script>
 </body>
 </html>
 
