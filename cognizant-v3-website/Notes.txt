@@ -274,3 +274,88 @@ Functions
 
       add(10, 20); // params
 
+--
+HTML5 JS API
+  Drag and Drop API
+    ondrag: null
+    ondragend: null
+    ondragenter: null
+    ondragleave: null
+    ondragover: null
+    ondragstart: null
+    ondrop: null
+
+  Web Storage Options
+    API's 
+    to save 
+      setItem 
+      
+    to get 
+      getItem
+    
+    to delete
+      removeItem 
+
+    1. LocalStorage 
+        * persistant 
+        
+
+    2. SessionStorage 
+        * for the session 
+        * 
+
+  Geolocation
+
+Templates
+  Template Characteristics
+  Injecting Dynamic Data
+  Nested Templates
+
+Custom Elements
+  Extended Custom Elements
+  Lifecycle Callback Methods
+  Naming Approaches
+
+
+  Custom Elements are of two types:
+  ---
+    1. Autonomous Custom Elements
+        * all new elements can be created by extending HTMLElement class 
+
+        class MyReport extends HTMLElement{
+          constructor(){
+            super();
+          }
+          
+          connectedCallBack(){
+            console.log('connectedCallBack');
+          }
+        }
+
+        customElements.define('my-report', MyReport);
+
+
+        and in html 
+        <my-report >test</my-report> 
+
+    2. Customized Built-in Elements 
+        * extend built-in elements like button or p tag 
+
+        class MyButton extends HTMLButtonElement{
+          // custom element related methods 
+          constructor(){
+            super();
+            this.addEventListener('click', () => {
+              alert('clicked');
+            })
+          }
+        }
+
+        customElements.define('my-button', MyButton, { extends: 'button'});
+
+        in html
+          <button is="my-button">Click Me</button>
+
+
+
+Messaging
